@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    background-color: cornsilk;
+}
+
+.text78 {
+    text-align: center;
+    font-size: 1rem;
+    color: maroon;
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 4.5rem;
+    color: maroon;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 3rem;
+    color: maroon;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.5rem;
+    color: maroon;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: maroon;
+}
+
+a {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 2.25rem;
+    color: maroon;
+}
+
+.w15 {
+    width: 15%;
+    margin: 0.25rem;
+}
+
+.w45 {
+    width: 45%;
+    margin: 0.25rem;
+}
+
+.w75 {
+    width: 75%;
+    margin: 0.25rem;
+    text-align: center;
+}
+
+.w80 {
+    width: 80%;
+    margin: 0.25rem;
+}
+
+.w100 {
+    width: 100%;
+    margin: 0.25rem;
+}
+
+.w16 {
+    width: 16.6%;
+    margin: 0.25rem;
+}
+
+.team-member {
+    width: auto;
+    float: left;
+    height: 50%;
+}
+
+.header {
+    width: auto;
+    height: 30vh;
+    box-sizing: border-box;
+    background-color: #0C0C0C;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.header:hover .overlay {
+    opacity: 1;
+}
+
+/*
+.box2 {
+    border: 2px;
+    color: maroon;
+    width: 21%;
+    border: solid;
+    border-top: 1px;
+    margin: 0rem;
+    float: left;
+    font-size: 20px;
+}
+*/
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*
+.box4 {
+    border: 2px;
+    color: maroon;
+    width: 15%;
+    border: solid;
+    border-top: 1px;
+    float: left;
+    margin: 0rem;
+    font-size: 20px;
+}
+*/
+
+.box {
+    border: 2px;
+    font-size: 0.5rem;
+    color: maroon;
+    border: solid;
+    width: 16%;
+    border-bottom: 1px;
+    margin: 0rem;
+    float: left;
+    text-align: center;
+}
+
+/*
+.box3 {
+    border: 2px;
+    color: maroon;
+    border: solid;
+    width: 30%;
+    float: left;
+    margin: 0rem;
+    float: left;
+    font-size: 20px;
+}
+*/
+
+.body{
+     background-image:url("wgc_school_nz");
+}
